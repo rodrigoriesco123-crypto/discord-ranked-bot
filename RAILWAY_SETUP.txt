@@ -1,0 +1,12 @@
+RAILWAY QUICK SETUP
+1. GitHub: upload this whole folder.
+2. Railway: New Project -> Deploy from GitHub Repo.
+3. Variables:
+   DISCORD_TOKEN = your Discord bot token
+   CLIENT_ID = your Discord application ID
+   GUILD_ID = your test server ID (optional, recommended for testing)
+   REGISTER_GLOBAL = false
+4. Start command: npm start
+5. Discord Developer Portal -> Bot -> enable Server Members Intent and Message Content Intent.
+6. Invite the bot with the permissions needed by the features you enable.
+7. For persistent SQLite, add a Railway Volume and set DATABASE_PATH=/data/bot.sqlite.
