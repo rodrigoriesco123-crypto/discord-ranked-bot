@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Example Cosmetic",
+    "image_url": "https://example.com/image.png",
+    "game": "Rocket League",
+    "reward": 10
+  }
+]
